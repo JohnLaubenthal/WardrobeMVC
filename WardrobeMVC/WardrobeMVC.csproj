@@ -249,6 +249,14 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\AppleWatch.jpg" />
+    <Content Include="Images\Asics.jpg" />
+    <Content Include="Images\Dockers.jpg" />
+    <Content Include="Images\DressPants.jpg" />
+    <Content Include="Images\Haines.jpg" />
+    <Content Include="Images\Merrell.jpg" />
+    <Content Include="Images\Stafford.jpg" />
+    <Content Include="Images\SwissArmy.jpg" />
     <Content Include="Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model1.edmx</DependentUpon>
