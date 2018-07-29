@@ -4,6 +4,8 @@
     ViewBag.Title = "Index";
 }
 
+
+
 <h2>Index</h2>
 
 <p>
@@ -62,7 +64,7 @@
             <div class="row">
                 <div class="col">
                     <button class="button">@Html.ActionLink("Edit", "Edit", new { id = item.ShoeID })</button>
-                    <button class="butotn">@Html.ActionLink("Details", "Details", new { id = item.ShoeID })</button>
+                    <button class="butotn">@Html.ActionLink("Details", "Details", new { id = item.ShoeID })</button>         @*added buttons*@
                     <button class="button">@Html.ActionLink("Delete", "Delete", new { id = item.ShoeID })</button>
                 </div>
             </div>

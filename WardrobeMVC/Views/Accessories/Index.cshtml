@@ -4,6 +4,8 @@
     ViewBag.Title = "Index";
 }
 
+@*Changed tables to divs*@
+
 <h2>Index</h2>
 
 <p>
@@ -63,7 +65,7 @@
         <div class="row">
             <div class="col">
                 <button class="button">@Html.ActionLink("Edit", "Edit", new { id = item.AccessoryID })</button>
-                <button class="button"> @Html.ActionLink("Details", "Details", new { id = item.AccessoryID })</button>
+                <button class="button"> @Html.ActionLink("Details", "Details", new { id = item.AccessoryID })</button>          @*added buttons*@
                 <button class="button">@Html.ActionLink("Delete", "Delete", new { id = item.AccessoryID })</button>
             </div>
         </div>

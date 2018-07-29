@@ -3,6 +3,10 @@
 @{
     ViewBag.Title = "Details";
 }
+
+@*changed tables to divs*@
+
+
 <div class="container">
     <h2>Details</h2>
 
@@ -61,8 +65,8 @@
 
             </div>
         </div>
-        <p>
-            <button class="buton">@Html.ActionLink("Edit", "Edit", new { id = Model.AccessoryID })</button>
-            <button class="button">@Html.ActionLink("Back to List", "Index")</button>
-        </p>
+    <p>
+        <button class="buton">@Html.ActionLink("Edit", "Edit", new { id = Model.AccessoryID })</button>          @*added buttons*@
+        <button class="button">@Html.ActionLink("Back to List", "Index")</button>
+    </p>
     </div>

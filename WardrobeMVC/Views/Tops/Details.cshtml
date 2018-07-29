@@ -4,6 +4,7 @@
     ViewBag.Title = "Tops";
 }
 
+@*changed tables to divs*@
 <div class="container">
     <h2>Details</h2>
 
@@ -63,7 +64,7 @@
         </div>
     </div>
     <p>
-        <button class="buton">@Html.ActionLink("Edit", "Edit", new { id = Model.TopID })</button>
+        <button class="buton">@Html.ActionLink("Edit", "Edit", new { id = Model.TopID })</button>          @*added buttons*@
         <button class="button">@Html.ActionLink("Back to List", "Index")</button>
     </p>
 </div>
