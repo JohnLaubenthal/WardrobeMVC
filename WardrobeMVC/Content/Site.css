@@ -22,8 +22,9 @@ select,
 textarea {
     max-width: 280px;
 }
-/*Styling the Navbar*/
+/*Styling the Navbar Buttons*/
 
 nav li{
   padding: 10px;
+  color: black;
 }
